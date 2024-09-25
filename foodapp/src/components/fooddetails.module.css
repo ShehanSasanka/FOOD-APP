@@ -1,0 +1,36 @@
+.recepieCard {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-family: Polysans, sans-serif;
+  color: #393e46;
+}
+.recepiename {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.recepieImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.recepieDetails {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recipieInstructions {
+  padding: 0px;
+  border-radius: 5px;
+  color: #adaab0;
+}
+.recipieInstructions ol {
+  margin-left: -15px;
+}
+.recipieInstructions li {
+  margin: 10px 0px;
+}
